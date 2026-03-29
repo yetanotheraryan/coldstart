@@ -1,7 +1,7 @@
 # coldstart
 
-[![npm version](https://img.shields.io/npm/v/coldstart.svg)](https://www.npmjs.com/package/coldstart)
-[![npm downloads](https://img.shields.io/npm/dm/coldstart.svg)](https://www.npmjs.com/package/coldstart)
+[![npm version](https://img.shields.io/npm/v/@yetanotheraryan/coldstart.svg)](https://www.npmjs.com/package/@yetanotheraryan/coldstart)
+[![npm downloads](https://img.shields.io/npm/dm/@yetanotheraryan/coldstart.svg)](https://www.npmjs.com/package/@yetanotheraryan/coldstart)
 [![Node.js >=18](https://img.shields.io/badge/node-%3E%3D18-339933.svg)](https://nodejs.org/)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
