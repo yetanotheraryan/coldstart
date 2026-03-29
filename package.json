@@ -21,7 +21,7 @@
     "./package.json": "./package.json"
   },
   "bin": {
-    "coldstart": "./dist/cli.js"
+    "coldstart": "dist/cli.js"
   },
   "files": [
     "dist",
