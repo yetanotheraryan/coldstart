@@ -7,11 +7,12 @@
         "target": "ES2022",
         "moduleResolution": "Node10",
         "module": "CommonJS",
+        "types": ["node"],
         "declaration": true,
         "isolatedModules": true,
         "noEmit": true,
         "outDir": "dist"
     },
-    "include": ["src"],
+    "include": ["src", "register.ts"],
     "exclude": ["node_modules"]
 }
