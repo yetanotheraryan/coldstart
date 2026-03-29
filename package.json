@@ -1,6 +1,6 @@
 {
   "name": "@yetanotheraryan/coldstart",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Profile Node.js startup by timing every require() and reporting slow modules.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
