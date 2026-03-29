@@ -1,0 +1,25 @@
+{
+  "name": "coldstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetanotheraryan/coldstart.git"
+  },
+  "author": "Aryan Tiwari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yetanotheraryan/coldstart/issues"
+  },
+  "homepage": "https://github.com/yetanotheraryan/coldstart#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
