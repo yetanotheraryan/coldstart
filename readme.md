@@ -136,21 +136,6 @@ node --require ./dist/register.js server.js
 node --import ./dist/register.mjs server.mjs
 ```
 
-## First Useful Test
-
-Builtins are useful for verifying that the hook is active, but they are usually too fast to teach you much.
-
-This works as a smoke test:
-
-```bash
-node dist/cli.js -- node -e "require('module')"
-```
-
-But this is a better test because it loads real file-backed code:
-
-```bash
-node dist/cli.js -- node -e "require('typescript')"
-```
 
 For ESM:
 
@@ -169,16 +154,22 @@ If all you test is `fs`, `path`, or `http`, seeing `0ms` is expected.
 ## Example Output
 
 ```text
-coldstart - 847ms total startup
 
-┌─ express           234ms  ████████████░░░░░░
-│  ├─ body-parser     89ms  █████░░░░░░░░░░░░
-│  └─ qs              12ms  █░░░░░░░░░░░░░░░░
-└─ sequelize         401ms  █████████████████  ! slow
+coldstart — 847ms total startup
+
+  ┌─ express          234ms  ████████████░░░░░░░░
+  │  ├─ body-parser    89ms  █████░░░░░░░░░░░░░░░
+  │  ├─ qs             12ms  █░░░░░░░░░░░░░░░░░░░
+  │  └─ path-to-regex   8ms  ░░░░░░░░░░░░░░░░░░░░
+  ├─ sequelize        401ms  █████████████████████  ⚠ slow
+  │  ├─ pg            203ms  ███████████░░░░░░░░░
+  │  └─ lodash         98ms  █████░░░░░░░░░░░░░░░
+  └─ dotenv             4ms  ░░░░░░░░░░░░░░░░░░░░
 
 event loop max 42ms, p99 17ms, mean 4.3ms
 modules 312 total, 59 cached
 time split 286ms first-party, 503ms node_modules
+
 ```
 
 Color thresholds in the text reporter:
