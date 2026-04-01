@@ -69,6 +69,10 @@ function collapseDisplayNoise(nodes: ModuleNode[]): ModuleNode[] {
       children: collapsedChildren,
     }
 
+    if (collapsedNode.inclusiveMs === 0 && collapsedNode.children.length === 0) {
+      continue
+    }
+
     if (shouldCollapseBuiltinNode(collapsedNode)) {
       const key = [
         collapsedNode.request,
@@ -82,6 +86,11 @@ function collapseDisplayNoise(nodes: ModuleNode[]): ModuleNode[] {
       seen.add(key)
     }
 
+    if (isAnonymousNode(collapsedNode)) {
+      result.push(...collapsedNode.children)
+      continue
+    }
+
     result.push(collapsedNode)
   }
 
@@ -90,6 +99,11 @@ function collapseDisplayNoise(nodes: ModuleNode[]): ModuleNode[] {
 
 function shouldCollapseBuiltinNode(node: ModuleNode): boolean {
   return node.isBuiltin && node.cached && node.inclusiveMs === 0 && node.children.length === 0
+}
+
+function isAnonymousNode(node: ModuleNode): boolean {
+  const label = formatLabel(node)
+  return label === '.' || label === '..'
 }
 
 function renderNode(

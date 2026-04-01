@@ -6,3 +6,4 @@
   // require('typescript')
 import * as fs from 'fs';
 import * as ts from 'typescript';
+import * as a from 'tsup'
