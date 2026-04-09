@@ -1,11 +1,21 @@
+<div align="center">
+
 # coldstart
 
-[![npm version](https://img.shields.io/npm/v/@yetanotheraryan/coldstart.svg)](https://www.npmjs.com/package/@yetanotheraryan/coldstart)
-[![npm downloads](https://img.shields.io/npm/dm/@yetanotheraryan/coldstart.svg)](https://www.npmjs.com/package/@yetanotheraryan/coldstart)
-[![Node.js >=18](https://img.shields.io/badge/node-%3E%3D18-339933.svg)](https://nodejs.org/)
-[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+**Profile Node.js startup one module load at a time.**
 
-Profile Node.js startup one module load at a time.
+<div>
+![NPM Version](https://img.shields.io/npm/v/coldstart?style=flat-square&color=CB3837&label=npm)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/yetanotheraryan/coldstart?style=flat-square&color=0f172a&label=version)
+![GitHub last commit](https://img.shields.io/github/last-commit/yetanotheraryan/coldstart?style=flat-square&color=6366f1)
+![GitHub contributors](https://img.shields.io/github/contributors/yetanotheraryan/coldstart?style=flat-square&color=0ea5e9)
+![GitHub forks](https://img.shields.io/github/forks/yetanotheraryan/coldstart?style=flat-square&color=8b5cf6)
+![GitHub Repo stars](https://img.shields.io/github/stars/yetanotheraryan/coldstart?style=flat-square&color=f59e0b)
+![GitHub License](https://img.shields.io/github/license/yetanotheraryan/coldstart?style=flat-square&color=22c55e)
+
+</div>
+
+</div>
 
 `coldstart` is a zero-dependency startup profiler for Node.js that instruments CommonJS and ESM startup loading, reconstructs the dependency tree, and points at the modules that actually slow boot time down.
 
