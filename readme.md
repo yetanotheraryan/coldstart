@@ -5,7 +5,8 @@
 **Profile Node.js startup one module load at a time.**
 
 <div>
-![NPM Version](https://img.shields.io/npm/v/coldstart?style=flat-square&color=CB3837&label=npm)
+
+![NPM Version](https://img.shields.io/npm/v/@yetanotheraryan/coldstart?style=flat-square&color=CB3837&label=npm)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/yetanotheraryan/coldstart?style=flat-square&color=0f172a&label=version)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yetanotheraryan/coldstart?style=flat-square&color=6366f1)
 ![GitHub contributors](https://img.shields.io/github/contributors/yetanotheraryan/coldstart?style=flat-square&color=0ea5e9)
