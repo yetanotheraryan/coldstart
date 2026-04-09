@@ -8,10 +8,10 @@
 
 ![NPM Version](https://img.shields.io/npm/v/@yetanotheraryan/coldstart?style=flat-square&color=CB3837&label=npm)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/yetanotheraryan/coldstart?style=flat-square&color=0f172a&label=version)
+![GitHub Repo stars](https://img.shields.io/github/stars/yetanotheraryan/coldstart?style=flat-square&color=cf0000)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yetanotheraryan/coldstart?style=flat-square&color=6366f1)
 ![GitHub contributors](https://img.shields.io/github/contributors/yetanotheraryan/coldstart?style=flat-square&color=0ea5e9)
 ![GitHub forks](https://img.shields.io/github/forks/yetanotheraryan/coldstart?style=flat-square&color=8b5cf6)
-![GitHub Repo stars](https://img.shields.io/github/stars/yetanotheraryan/coldstart?style=flat-square&color=f59e0b)
 ![GitHub License](https://img.shields.io/github/license/yetanotheraryan/coldstart?style=flat-square&color=22c55e)
 
 </div>
